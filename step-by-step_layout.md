@@ -12,7 +12,7 @@ The first part of this tutorial begins in LimeSurvey. Here, we're going to begin
 
 Begin by logging into your LimeSurvey account. You will see one or more actions to take. For now we're going to click on the "List Surveys" option
 
-[Image of LimeSurvey Survey List page](./limesurvey_suave/assets/Untitled.png)
+[Image of LimeSurvey Survey List page](./assets/Untitled.png)
 
 This is the LimeSurvey homepage. Here you can create surveys, or monitor the ones you've created.
 
@@ -21,7 +21,7 @@ Here we can view the surveys we have created along with their basic information 
 
 There will be a button in the top left corner of the homepage that reads "Create a new Survey." Press this to begin the survey creating process.
 
-![Image of New Survey page](./limesurvey_suave/assets/Untitled 1.png)
+![Image of New Survey page](./assets/Untitled 1.png)
 
 Here we have many options to customize the functionality of our survey. You can read more about the specifics of each option [here, as part of LimeSurvey's documentation.](https://manual.limesurvey.org/Surveys_-_introduction)
 
@@ -31,7 +31,7 @@ Press the "Save" button in the upper right hand corner.
 
 ### Write Down Your Survey ID
 
-![Zoomed in image of survey title and ID](./limesurvey_suave/assets/Untitled 2.png)
+![Zoomed in image of survey title and ID](./assets/Untitled 2.png)
 
 After saving, you should be redirected to your survey homepage. Here, you can revise the settings of the survey and make changes to it's functionality.
 
@@ -51,11 +51,11 @@ You will now see a page that looks very similar to the starting page of our surv
 
 Click on the toggle that reads "Toggle Source Code" to the right of the End Message block.
 
-![Image of "Toggle Source mode" button](./limesurvey_suave/assets/Untitled 4.png)
+![Image of "Toggle Source mode" button](./assets/Untitled 4.png)
 
 Your End Message block should now look like this:
 
-![Image of blank "End Message" text box](./limesurvey_suave/assets/Untitled 5.png)
+![Image of blank "End Message" text box](./assets/Untitled 5.png)
 
 Copy this block of code and paste it into the "End Message" block
 
@@ -81,7 +81,7 @@ Copy this block of code and paste it into the "End Message" block
 ```
 Now it should look like this:
 
-![Image of "End Message" script after replacing survey id](./limesurvey_suave/assets/new_script.JPG)
+![Image of "End Message" script after replacing survey id](./assets/new_script.JPG)
 
 You can then add whatever ending message you want by adding more html code, or replacing the text that says "Thank you for participating in this survey!" For example, you can enter
 
@@ -93,7 +93,7 @@ You can then add whatever ending message you want by adding more html code, or r
 
 After Saving, you can click the "Toggle Source Code" button again in order to preview what the ending message will look like. This is what the above source code looks like to the survey participant:
 
-![Image of "End Message" box with "source mode" toggled off](./limesurvey_suave/assets/Untitled 8.png)
+![Image of "End Message" box with "source mode" toggled off](./assets/Untitled 8.png)
 
 - **Note:** If you want to change the end message in the future, you may have to repeat this step and paste in the code again
 
@@ -101,7 +101,7 @@ After Saving, you can click the "Toggle Source Code" button again in order to pr
 
 - Next, navigate to the "Group list" tab on the left navigation bar
 
-  ![Image of Survey summary page with highlighted "Group list" navigation bar item](./limesurvey_suave/assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
+  ![Image of Survey summary page with highlighted "Group list" navigation bar item](./assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
 
 - We're going to begin by creating a question group, which is essentially a set of questions that will be grouped together on a single page in your survey.
 
@@ -117,11 +117,11 @@ Note that there must be at least one question group, since each question has to 
 - Next, add a question by clicking "Add Question" in the left navigation bar, or by clicking "Save and add question" in the top right
   - To view questions and question groups in the left navigation bar, you will have to select the "Structure" option at the top of the navigation bar.
 
-![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](./limesurvey_suave/assets/new_question.png)
+![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](./assets/new_question.png)
 
 - Next, we will setup the survey questions in order to collect the data that we'll present in SuAVE.
 
-![Image of Create Question page](./limesurvey_suave/assets/Untitled 10.png)
+![Image of Create Question page](./assets/Untitled 10.png)
 
 Survey questions are very versatile and are able to handle many data formats, including but not limited to: multiple choice selections, images, and free form text.
 ### For a list of example questions, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Example_Mappings.html)
@@ -135,7 +135,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the left navigation bar select the "Settings" toggle in the top left and click "Question list."
 
-  ![Image of "Question list" page with highlighted question codes column](./limesurvey_suave/assets/question_code_columns.png)
+  ![Image of "Question list" page with highlighted question codes column](./assets/question_code_columns.png)
 
   - Write down a list of the question codes of the questions that contain information that you would like to display in SuAVE. We will need these for the following step.
 
@@ -145,7 +145,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the toolbar at the top of the page there will be a green button titled "Activate Survey" which will take you through the activation steps.
 
-  ![Image of focused "Activate this survey" and other top menu items](./limesurvey_suave/assets/Untitled 11.png)
+  ![Image of focused "Activate this survey" and other top menu items](./assets/Untitled 11.png)
 
 You can use the "Preview survey" button to get a preview of what the survey respondents will see before activating your survey.
 
@@ -174,11 +174,11 @@ You can use the "Preview survey" button to get a preview of what the survey resp
 
 - Click the "Share" button in the top right of the Google Sheets Page
 
-  ![Image of blank Google spreadsheet with highlighted "Share" button](./limesurvey_suave/assets/sharesheets.png)
+  ![Image of blank Google spreadsheet with highlighted "Share" button](./assets/sharesheets.png)
 
 - You will be presented with the following menu:
 
-![Image of defaulted Google spreadsheet share menu](./limesurvey_suave/assets/Untitled 12.png)
+![Image of defaulted Google spreadsheet share menu](./assets/Untitled 12.png)
 
 - In the box that says "Add people and groups" you will enter the following email:
 
