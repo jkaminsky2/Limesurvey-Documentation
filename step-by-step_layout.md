@@ -21,7 +21,7 @@ Here we can view the surveys we have created along with their basic information 
 
 There will be a button in the top left corner of the homepage that reads "Create a new Survey." Press this to begin the survey creating process.
 
-![Image of New Survey page](assets/Untitled 1.png)
+![Image of New Survey page](assets/Untitled%201.png)
 
 Here we have many options to customize the functionality of our survey. You can read more about the specifics of each option [here, as part of LimeSurvey's documentation.](https://manual.limesurvey.org/Surveys_-_introduction)
 
