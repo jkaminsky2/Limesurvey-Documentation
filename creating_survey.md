@@ -4,7 +4,7 @@ parent: Full Limesurvey-SuAVE Guide
 nav_order: 1
 ---
 
-## {title}
+## {{page.title}}
 
 The first part of this tutorial begins in LimeSurvey. Here, we're going to begin setting up our survey to collect our data.
 
