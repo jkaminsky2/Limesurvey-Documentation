@@ -1,5 +1,5 @@
 ---
-title: Step 1: Creating Survey
+title: Step 1 - Creating Survey
 parent: Full Limesurvey-SuAVE Guide
 nav_order: 1
 ---
