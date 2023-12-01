@@ -31,7 +31,7 @@ Press the "Save" button in the upper right hand corner.
 
 ### Write Down Your Survey ID
 
-![Zoomed in image of survey title and ID](./assets/Untitled 2.png)
+![Zoomed in image of survey title and ID](/assets/Untitled 2.png)
 
 After saving, you should be redirected to your survey homepage. Here, you can revise the settings of the survey and make changes to it's functionality.
 
@@ -45,17 +45,17 @@ Next, we're going add an end message and include an important piece of code that
 
 Select the menu item titled "Text elements" in the sidebar of your survey homepage.
 
-![Image of survey summary with highlighted "Text elements" navigation menu item](./limesurvey_suave/assets/Untitled 3.png)
+![Image of survey summary with highlighted "Text elements" navigation menu item](/limesurvey_suave/assets/Untitled 3.png)
 
 You will now see a page that looks very similar to the starting page of our survey creation.
 
 Click on the toggle that reads "Toggle Source Code" to the right of the End Message block.
 
-![Image of "Toggle Source mode" button](./assets/Untitled 4.png)
+![Image of "Toggle Source mode" button](/assets/Untitled 4.png)
 
 Your End Message block should now look like this:
 
-![Image of blank "End Message" text box](./assets/Untitled 5.png)
+![Image of blank "End Message" text box](/assets/Untitled 5.png)
 
 Copy this block of code and paste it into the "End Message" block
 
@@ -81,7 +81,7 @@ Copy this block of code and paste it into the "End Message" block
 ```
 Now it should look like this:
 
-![Image of "End Message" script after replacing survey id](./assets/new_script.JPG)
+![Image of "End Message" script after replacing survey id](/assets/new_script.JPG)
 
 You can then add whatever ending message you want by adding more html code, or replacing the text that says "Thank you for participating in this survey!" For example, you can enter
 
@@ -93,7 +93,7 @@ You can then add whatever ending message you want by adding more html code, or r
 
 After Saving, you can click the "Toggle Source Code" button again in order to preview what the ending message will look like. This is what the above source code looks like to the survey participant:
 
-![Image of "End Message" box with "source mode" toggled off](./assets/Untitled 8.png)
+![Image of "End Message" box with "source mode" toggled off](/assets/Untitled 8.png)
 
 - **Note:** If you want to change the end message in the future, you may have to repeat this step and paste in the code again
 
@@ -101,7 +101,7 @@ After Saving, you can click the "Toggle Source Code" button again in order to pr
 
 - Next, navigate to the "Group list" tab on the left navigation bar
 
-  ![Image of Survey summary page with highlighted "Group list" navigation bar item](./assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
+  ![Image of Survey summary page with highlighted "Group list" navigation bar item](/assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
 
 - We're going to begin by creating a question group, which is essentially a set of questions that will be grouped together on a single page in your survey.
 
@@ -109,7 +109,7 @@ Note that there must be at least one question group, since each question has to 
 
 - This is what the question group page looks like:
 
-![Image of Question Group page](./limesurvey_suave/assets/Untitled 9.png)
+![Image of Question Group page](/limesurvey_suave/assets/Untitled 9.png)
 
 - Your question group does not require any of the fields to be filled in, however we recommend you at least add a title, which will help identify the question group and will show up on the top of page when the survey questions are presented.
 - You can read more about question groups in the official [LimeSurvey Documentation here.](https://manual.limesurvey.org/Question_groups_-_introduction)
@@ -117,11 +117,11 @@ Note that there must be at least one question group, since each question has to 
 - Next, add a question by clicking "Add Question" in the left navigation bar, or by clicking "Save and add question" in the top right
   - To view questions and question groups in the left navigation bar, you will have to select the "Structure" option at the top of the navigation bar.
 
-![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](./assets/new_question.png)
+![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](/assets/new_question.png)
 
 - Next, we will setup the survey questions in order to collect the data that we'll present in SuAVE.
 
-![Image of Create Question page](./assets/Untitled 10.png)
+![Image of Create Question page](/assets/Untitled 10.png)
 
 Survey questions are very versatile and are able to handle many data formats, including but not limited to: multiple choice selections, images, and free form text.
 ### For a list of example questions, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Example_Mappings.html)
@@ -135,7 +135,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the left navigation bar select the "Settings" toggle in the top left and click "Question list."
 
-  ![Image of "Question list" page with highlighted question codes column](./assets/question_code_columns.png)
+  ![Image of "Question list" page with highlighted question codes column](/assets/question_code_columns.png)
 
   - Write down a list of the question codes of the questions that contain information that you would like to display in SuAVE. We will need these for the following step.
 
@@ -145,7 +145,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the toolbar at the top of the page there will be a green button titled "Activate Survey" which will take you through the activation steps.
 
-  ![Image of focused "Activate this survey" and other top menu items](./assets/Untitled 11.png)
+  ![Image of focused "Activate this survey" and other top menu items](/assets/Untitled 11.png)
 
 You can use the "Preview survey" button to get a preview of what the survey respondents will see before activating your survey.
 
@@ -174,11 +174,11 @@ You can use the "Preview survey" button to get a preview of what the survey resp
 
 - Click the "Share" button in the top right of the Google Sheets Page
 
-  ![Image of blank Google spreadsheet with highlighted "Share" button](./assets/sharesheets.png)
+  ![Image of blank Google spreadsheet with highlighted "Share" button](/assets/sharesheets.png)
 
 - You will be presented with the following menu:
 
-![Image of defaulted Google spreadsheet share menu](./assets/Untitled 12.png)
+![Image of defaulted Google spreadsheet share menu](/assets/Untitled 12.png)
 
 - In the box that says "Add people and groups" you will enter the following email:
 
@@ -189,16 +189,16 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 - You will be prompted with this menu. Ensure that the share permission is set to "Editor."
 - Press Send.
 
-![Image of Google spreadsheet with configured sharing to limesurvey integration account](./assets/Untitled 13.png)
+![Image of Google spreadsheet with configured sharing to limesurvey integration account](/assets/Untitled 13.png)
 
 - Next go back to the share menu and under the "Get Link" menu, click "Change to anyone with the link"
   - This will ensure that SuAVE has permissions to read the spreadsheet for the collected data.
 
-![Image of Google spreadsheet share menu with updated sharing options](./assets/Untitled 14.png)
+![Image of Google spreadsheet share menu with updated sharing options](/assets/Untitled 14.png)
 
 - Your share menu should now look like this. Ensure that the permission for "Anyone with the link" is set to "Viewer"
 
-![Image of expanded "Get link" menu with proper sharing settings](./assets/Untitled 15.png)
+![Image of expanded "Get link" menu with proper sharing settings](/assets/Untitled 15.png)
 
 - Next, click "Copy link" and save it somewhere. **We will need it in a later step.**
 
@@ -207,17 +207,17 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 - Rename the spreadsheet to the ID of your survey
 - Create a new spreadsheet tab by clicking the "+" button on the bottom left of the screen.
 
-![Image of blank Google Spreadsheet with highlighted new tab (+) button](./assets/sheet_new_tab.png)
+![Image of blank Google Spreadsheet with highlighted new tab (+) button](/assets/sheet_new_tab.png)
 
 - Renaming the spreadsheet tabs
 
   - To rename a spreadsheet tab, right click on it or click on the triangle and select "Rename" from the menu.
 
-  ![Image of blank Google Spreadsheet with options dropdown for first spreadsheet tab](./assets/Untitled 16.png)
+  ![Image of blank Google Spreadsheet with options dropdown for first spreadsheet tab](/assets/Untitled 16.png)
 
   - Rename the first spreadsheet tab to the survey ID collected in the previous section. Make sure to rename the title of the spreadsheet to be the survey ID as well.
 
-  ![Image of blank Google Spreadsheet with highlighted title text box/element and tab button](./assets/sheet_tab_namings.png)
+  ![Image of blank Google Spreadsheet with highlighted title text box/element and tab button](/assets/sheet_tab_namings.png)
 
   - Rename the second tab to "mappings"
 
@@ -248,7 +248,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
       - In SuAVE, the search menu will sort the labels of the "Region" question responses by quantity.
 
-      ![Image of active SuAVE #sortquan UI menu](./assets/Untitled 17.png)
+      ![Image of active SuAVE #sortquan UI menu](/assets/Untitled 17.png)
 
   ### **ExpressionType**
 
@@ -270,7 +270,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
         - If we simply want to copy the exact response from our survey question (with question code "favorite_sport") over to SuAVE, we would use the "copy" expression type with a configuration that looks like this:
 
-          ![Image of simple copy mappings spreadsheet example](./assets/Untitled 18.png)
+          ![Image of simple copy mappings spreadsheet example](/assets/Untitled 18.png)
 
     - multi_from_dict:
 
@@ -281,11 +281,11 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
         - Under SuAVEFieldName, you will want to add the "#multi" qualifier after your desired feature title.
         - If you go to your question in LimeSurvey and scroll down you will see a tab titled "Subquestions." Clicking that will display the subquestion codes that you can make a dictionary of.
 
-        ![Image of multiple choice question setup in LimeSurvey](./assets/Untitled 19.png)
+        ![Image of multiple choice question setup in LimeSurvey](/assets/Untitled 19.png)
 
         - Scroll down when you get to your question in LimeSurvey
 
-        ![Image of multiple choice subquestion setup in LimeSurvey](./assets/Untitled 20.png)
+        ![Image of multiple choice subquestion setup in LimeSurvey](/assets/Untitled 20.png)
 
         - Create a list of the subquestions that you would like to display in SuAVE like below.
           - Each item should be in the format of "QuestionCode[SubquestionTitle]"
@@ -310,7 +310,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
         - This is how our question is represented in SuAVE, allowing us to sort the responses by the tags that were derived from our subquestions.
 
-          ![Image of SuAVE filter UI for a multiple choice question](./assets/Untitled 21.png)
+          ![Image of SuAVE filter UI for a multiple choice question](/assets/Untitled 21.png)
 
     - dict:
 
@@ -334,9 +334,9 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
       - If a question uses the "Short Free Text" question type that asks respondents to select a location on a map, then these ExpressionTypes will be required to display responses on a map in SuAVE
       - With a question that has the QuestionCode of "Latlon" we will add two rows into our "mappings" spreadsheet and enter the configuration as follows:
 
-      ![Image of what a latitude and longitude question looks like in LimeSurvey questions list](./assets/Untitled 22.png)
+      ![Image of what a latitude and longitude question looks like in LimeSurvey questions list](/assets/Untitled 22.png)
 
-      ![Image of example latitude and longitude mappings in the spreadsheet](./assets/Untitled 23.png)
+      ![Image of example latitude and longitude mappings in the spreadsheet](/assets/Untitled 23.png)
 
     - template
 
@@ -350,9 +350,9 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
         - Here a student submits their first and last name in the separate respective questions and the mapper formats the responses to show their last name first followed by a comma and space and then their first name.
 
-          ![Image of spreadsheet setup for first and last name combination template example](./assets/Untitled 24.png)
+          ![Image of spreadsheet setup for first and last name combination template example](/assets/Untitled 24.png)
 
-          ![Image of resulting SuAVE field of combined first and last name LimeSurvey response entries](./assets\Untitled 25.png)
+          ![Image of resulting SuAVE field of combined first and last name LimeSurvey response entries](/assets\Untitled 25.png)
 
   ### **BasedOn**
 
@@ -380,7 +380,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
     - The #img special column name is responsible for taking survey questions that require you to upload an image, and display them as tiles for each individual response in SuAVE as shown here:
 
-    ![Image of SuAVE Gallery UI displaying images from LimeSurvey field](./assets/Untitled 26.png)
+    ![Image of SuAVE Gallery UI displaying images from LimeSurvey field](/assets/Untitled 26.png)
 
     - Starting with BasedOn, we see that we're pulling from the survey question that has the ID of "ProImage"
     - Next, the value for Mapper shows that we are formatting SuAVE to just insert the response data from our question with no extra characters.
