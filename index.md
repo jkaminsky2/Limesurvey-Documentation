@@ -9,10 +9,10 @@ title: Limesurvey Documentation
 
 **The following link is for the instructions on how to use Limesurvey.**
 
-<body>
 <div class="button-container" style="display: flex; align-items: center;margin-top: 20px;">
    <div class="arrow-container">
       <div class="button green">
          <a href="https://jkaminsky2.github.io/Limesurvey_Guide/limesurvey_guide.html">Limesurvey Guide</a>
       </div>
+   </div>
 </div>
