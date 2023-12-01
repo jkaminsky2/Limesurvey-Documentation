@@ -1,6 +1,7 @@
 ---
+title: Getting Started
 layout: home
-title: Limesurvey Documentation
+nav_order: 1
 ---
 
 # Limesurvey Guide
