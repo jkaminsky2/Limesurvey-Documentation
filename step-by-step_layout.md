@@ -12,7 +12,7 @@ The first part of this tutorial begins in LimeSurvey. Here, we're going to begin
 
 Begin by logging into your LimeSurvey account. You will see one or more actions to take. For now we're going to click on the "List Surveys" option
 
-[Image of LimeSurvey Survey List page](assets/Untitled.png)
+[Image of LimeSurvey Survey List page](/assets/Untitled.png)
 
 This is the LimeSurvey homepage. Here you can create surveys, or monitor the ones you've created.
 
@@ -21,7 +21,7 @@ Here we can view the surveys we have created along with their basic information 
 
 There will be a button in the top left corner of the homepage that reads "Create a new Survey." Press this to begin the survey creating process.
 
-![Image of New Survey page](./assets/Untitled 1.png)
+![Image of New Survey page](assets/Untitled 1.png)
 
 Here we have many options to customize the functionality of our survey. You can read more about the specifics of each option [here, as part of LimeSurvey's documentation.](https://manual.limesurvey.org/Surveys_-_introduction)
 
